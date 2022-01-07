@@ -3,15 +3,21 @@ package com.ameyama;
 import processing.core.*;
 
 public class Main extends PApplet {
-    public void setup(){
-        size(100, 100);
-        background(255, 0, 0);
-        System.out.println("Yay!");
+    public void settings(){
+        // the `size` function can only be used here!
+        // (i.e., it can't be used in `setup`)
+        size(512, 512);
     }
 
-    public void draw(){}
+    public void setup(){
+        // do some setup...
+    }
 
-    public static void main(String[] args) {
+    public void draw(){
+        background(255, 0, 0);
+    }
+
+    public static void main(String[] args){
         PApplet.main("com.ameyama.Main");
     }
 }
