@@ -1,4 +1,4 @@
-package com.ameyama;
+package com.example;
 
 import processing.core.*;
 
@@ -18,6 +18,6 @@ public class Main extends PApplet {
     }
 
     public static void main(String[] args){
-        PApplet.main("com.ameyama.Main");
+        PApplet.main("com.example.Main");
     }
 }
